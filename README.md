@@ -1,2 +1,0 @@
-# ScrollWebsite
-Created with CodeSandbox
