@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300&display=swap");
+@import "/fonts.css";
+@import "/effects.css";
 
 body {
   box-sizing: border-box;
@@ -19,6 +20,7 @@ header {
 
 h1 {
   font-size: 1.625rem;
+  margin: 0 0 5px 0;
 }
 
 p {
@@ -31,6 +33,17 @@ section {
   /* width: 100%; */
 }
 
+.image_2 {
+  background-image: url(https://images.unsplash.com/photo-1558980395-2f289089d3ec);
+}
+
+.image_3 {
+  background-image: url(https://images.unsplash.com/photo-1587440127595-e25a6f55f3e3);
+}
+.image_4 {
+  background-image: url(https://images.unsplash.com/photo-1587221703223-181d78a8fc4c);
+}
+
 footer {
   font-size: 0.9rem;
   position: fixed;
@@ -41,9 +54,9 @@ footer {
 footer a {
   text-decoration: none;
   color: #ffff;
-  padding-right: 15px;
+  margin-right: 15px;
 }
 
 footer a:last-child {
-  padding-right: 0;
+  margin-right: 0;
 }
