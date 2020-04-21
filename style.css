@@ -1,5 +1,6 @@
 @import "/fonts.css";
 @import "/effects.css";
+@import "/footer.css";
 
 body {
   box-sizing: border-box;
@@ -26,10 +27,11 @@ h1 {
 p {
   font-size: 1.025rem;
 }
+
 section {
   height: 100vh;
   background-size: cover;
-  /* width: 100%; */
+  width: 100%;
   background-attachment: fixed;
 }
 
@@ -46,21 +48,4 @@ section {
 }
 .image_4 {
   background-image: url(https://images.unsplash.com/photo-1587221703223-181d78a8fc4c);
-}
-
-footer {
-  font-size: 0.9rem;
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-}
-
-footer a {
-  text-decoration: none;
-  color: #ffff;
-  margin-right: 15px;
-}
-
-footer a:last-child {
-  margin-right: 0;
 }
