@@ -1,3 +1,7 @@
+::selection {
+  background-color: red;
+}
+
 a:hover {
   color: #dddddd;
   transition: color 0.2s ease-in-out;
