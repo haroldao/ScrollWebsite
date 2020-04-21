@@ -16,6 +16,14 @@ header {
   top: 20px;
   left: 20px;
 }
+
+h1 {
+  font-size: 1.625rem;
+}
+
+p {
+  font-size: 1.025rem;
+}
 section {
   height: 100vh;
   background-image: url(https://images.unsplash.com/photo-1558980394-34764db076b4);
@@ -23,13 +31,19 @@ section {
   /* width: 100%; */
 }
 
-a {
-  text-decoration: none;
-  color: #ffff;
-}
-
 footer {
+  font-size: 0.9rem;
   position: fixed;
   bottom: 20px;
   left: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffff;
+  padding-right: 15px;
+}
+
+footer a:last-child {
+  padding-right: 0;
 }
